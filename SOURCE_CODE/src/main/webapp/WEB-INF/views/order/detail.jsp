@@ -40,7 +40,7 @@
 		<!--Body Content-->
 		<div id="page-content">
 			<!--Page Title-->
-			<div class="page section-header text-center mt-5">
+			<div class="page section-header text-center mt-5" style="padding-top: 50px;">
 				<div class="page-title">
 					<div class="wrapper">
 						<h1 class="page-width">CHI TIẾT ĐƠN HÀNG</h1>

@@ -65,10 +65,10 @@
 					</div>
 					<div class="grid-products">
 						<div class="row">
-							<c:forEach var="d" items="${db}" end="15">
+							<c:forEach var="d" items="${db}" end="14">
 								<div
-									class="col-6 col-sm-6 col-md-3 col-lg-3 item grid-view-item style2">
-									<div class="grid-view_image" style="border: 5px inset red;">
+									class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
+									<div class="grid-view_image" style="border: 1px inset red;">
 										<!-- start product image -->
 										<a href="/product/detail/${d.product.id}"
 											class="grid-view-item__link"> <!-- image --> <img
@@ -139,7 +139,7 @@
 			<!--End Featured Product-->
 
 			<!--Store Feature-->
-			<!-- <div class="store-feature section">
+			<div class="store-feature section">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -161,7 +161,7 @@
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!--End Store Feature-->
 		</div>
 		<!--End Body Content-->

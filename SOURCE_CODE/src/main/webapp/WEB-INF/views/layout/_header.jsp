@@ -25,10 +25,10 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="language-dropdown">
-						<!-- <span class="language-dd">Việt Nam</span>
+						<span class="language-dd">Việt Nam</span>
 						<ul id="language">
 							<li class="">English</li>
-						</ul> -->
+						</ul>
 					</div>
 					<p class="phone-no">
 						<i class="anm anm-phone-s"></i> +799063529
@@ -61,11 +61,11 @@
 	<!--End Top Header-->
 	<!--Header-->
 	<div class="header-wrap classicHeader animated d-flex">
-		<div class="container-fluid" style="background: #007bff;">
+		<div class="container-fluid" style="background: #00fff7;">
 			<div class="row align-items-center">
 				<!--Desktop Logo-->
 				<div class="logo col-md-2 col-lg-2 d-none d-lg-block">
-					<a style="text-decoration: none;" href="/"><h1 style="font-size:35px; font-weight: 800; color: black;">MINI QUÁN</h1> </a>
+					<a style="text-decoration: none;" href="/"><h1 style="font-size:35px; font-weight: 600; color: black;">MINI QUÁN</h1> </a>
 					
 				</div>
 				<!--End Desktop Logo-->

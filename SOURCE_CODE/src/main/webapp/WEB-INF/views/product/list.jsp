@@ -75,7 +75,7 @@
 							</div> -->
 							<!--Categories-->
 							<!--Price Filter-->
-							<!-- <div class="sidebar_widget filterBox filter-widget">
+							<div class="sidebar_widget filterBox filter-widget">
 								<div class="widget-title">
 									<h2>Giá</h2>
 								</div>
@@ -89,7 +89,7 @@
 									<button formaction="/product/list/price/over900"
 										class="btn mb-2 btn--secondary">Trên 900K</button>
 								</form>
-							</div> -->
+							</div>
 							<!--End Price Filter-->
 
 							<!--Brand-->
@@ -145,12 +145,12 @@
 								</div>
 							</div>
 							<!--End Toolbar-->
-							<div class="grid-products grid--view-items">
+							<div class="grid-products grid--view-items">	
 								<div class="row">
 									<c:forEach var="p" items="${products}">
-										<div class="col-6 col-sm-6 col-md-3 col-lg-3 item">
+										<div class="col-6 col-sm-6 col-md-4 col-lg-4 item">
 											<!-- start product image -->
-											<div class="product-image" style="border: 3px solid red;">
+											<div class="product-image" style="border: 1px solid red;">
 												<!-- start product image -->
 												<a href="/product/detail/${p.product.id}"> <!-- image -->
 													<img class="product primary blur-up lazyload"
@@ -198,12 +198,12 @@
 												</div>
 												<!-- End product price -->
 												<!-- Variant -->
-												<!-- <ul class="swatches">
+												<ul class="swatches">
 													<c:forEach var="i" items="${p.images}">
 														<li class="swatch medium rounded"><img
 															src="/images/product/${i}" alt="image" /></li>
 													</c:forEach>
-												</ul> -->
+												</ul>
 												<!-- End Variant -->
 											</div>
 											<!-- End product details -->

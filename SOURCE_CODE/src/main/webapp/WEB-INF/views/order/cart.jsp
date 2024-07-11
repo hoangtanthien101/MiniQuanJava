@@ -38,7 +38,7 @@
 		<!--Body Content-->
 		<div id="page-content">
 			<!--Page Title-->
-			<div class="page section-header text-center mt-5">
+			<div class="page section-header text-center mt-5" style="padding-top: 40px;">
 				<div class="page-title">
 					<div class="wrapper">
 						<h1 class="page-width">Giỏ hàng</h1>
